@@ -102,3 +102,6 @@ Este é um projeto de aprendizado pessoal, mas estou aberto a sugestões de melh
 
 ## Licença
 Este projeto é licenciado sob a licença MIT. Consulte o arquivo **LICENSE** para obter mais informações.
+
+## Créditos
+Este projeto foi criado por Daniel Inácio. Agradeço à comunidade do Logisim pela a utilidade seus recursos durante o desenvolvimento deste projeto.
