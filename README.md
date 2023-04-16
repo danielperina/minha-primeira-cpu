@@ -3,17 +3,17 @@
 Este é um projeto de uma CPU criado no Logisim com o objetivo de aprender mais sobre arquitetura de computadores e lógica digital.
 
 ## Formato das Instruções
-As instruções seguem um dos seguintes formatos:
+As instruções seguem os seguintes formatos:
 
 - OOOOOO AAAAAAAAAA
 - OOOOOO XXXXXXXXXR
 
 Onde:
 
-**O** representa o opcode da instrução.
-**A** representa o endereço de memória utilizado pela instrução.
-**X** representa um bit que não é utilizado pela instrução.
-**R** representa o endereço de um registrador utilizado pela instrução.
+**O** representa o opcode da instrução.<br>
+**A** representa o endereço de memória utilizado pela instrução.<br>
+**X** representa um bit que não é utilizado pela instrução.<br>
+**R** representa o endereço de um registrador utilizado pela instrução.<br>
 
 ## Instruções suportadas
 
@@ -82,7 +82,7 @@ LDB: Carrega o conteúdo de um endereço de memória especificado para o registr
 - **ANA**: Realiza uma operação AND bit a bit entre o conteúdo do registrador **A** e um valor da memória e armazena o resultado no registrador **A**.
 - **ANB**: Realiza uma operação AND bit a bit entre o conteúdo do registrador **B** e um valor da memória e armazena o resultado no registrador **B**.
 - **ORI**: Realiza uma operação OR bit a bit entre os conteúdos dos registradores **A** e **B** e armazena o resultado no registrador especificado.
-- **ORA**: Realiza uma operação OR bit a bit entre o conteúdo do registrador **A** e um valor da memória e armazena o resultado no registrador A.
+- **ORA**: Realiza uma operação OR bit a bit entre o conteúdo do registrador **A** e um valor da memória e armazena o resultado no registrador **A**.
 - **ORB**: Realiza uma operação OR bit a bit entre o conteúdo do registrador **B** e um valor da memória e armazena o resultado no registrador **B**.
 - **EOR**: Realiza uma operação XOR bit a bit entre os conteúdos dos registradores **A** e **B** e armazena o resultado no registrador especificado.
 - **EOA**: Realiza uma operação XOR bit a bit entre o conteúdo do registrador **A** e um valor da memória e armazena o resultado no registrador **A**.
