@@ -9,3 +9,5 @@
 0x007: SBB 02 ; 0010 1000 0000 0010 - 2802
 0x008: HLT    ; 1111 1100 0000 0000 - FC00
 ```
+
+*Nota: Este programa será atualizado de acordo com as novas instruções adicionadas.

@@ -6,3 +6,5 @@
 0x004: JMP 01 ; 0101 0000 0000 0001 - 5001
 0x005: HLT    ; 1111 1100 0000 0000 - FC00
 ```
+
+*Nota: Este programa será atualizado de acordo com as novas instruções adicionadas.

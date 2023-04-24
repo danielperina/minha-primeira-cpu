@@ -22,3 +22,5 @@
 0x014: JPZ 09 ; 0101 1000 0000 1001 - 5809
 0x015: JMP 12 ; 0101 0000 0001 0010 - 5012
 ```
+
+*Nota: Este programa será atualizado de acordo com as novas instruções adicionadas.
