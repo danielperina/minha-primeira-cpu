@@ -2,6 +2,9 @@
 
 Este é um projeto de uma CPU criado no Logisim com o objetivo de aprender mais sobre arquitetura de computadores e lógica digital.
 
+![CPU_FULL_IMAGE](CPU_FULL_IMAGE.png)
+
+
 ## Formato das Instruções
 As instruções seguem os seguintes formatos:
 
@@ -76,11 +79,7 @@ WX - DO NOT WRITE DATA
 - **STA**: Armazena o conteúdo do registrador **A** em um endereço de memória especificado.
 - **STB**: Armazena o conteúdo do registrador **B** em um endereço de memória especificado.
 - **LDA**: Carrega o conteúdo de um endereço de memória especificado para o registrador **A**.
-- **LDB**: Carrega o conteúdo de um endereço de memória especificado para o registrador **B**.
-- **LAI**: Carrega o valor imediato 10 bits com sinal no registrador **A**.
-- **LBI**: Carrega o valor imediato 10 bits com sinal no registrador **B**.
-- **TBA**: Carrega no registrador **A** o valor que está no registrador **B**.
-- **TAB**: Carrega no registrador **B** o valor que está no registrador **A**.
+LDB: Carrega o conteúdo de um endereço de memória especificado para o registrador **B**.
 - **ADD**: Soma o conteúdo dos registradores **A** e **B** e armazena o resultado no registrador especificado.
 - **ADA**: Soma o conteúdo do registrador **A** com um valor da memória e armazena o resultado no registrador **A**.
 - **ADB**: Soma o conteúdo do registrador **B** com um valor da memória e armazena o resultado no registrador **B**.
@@ -104,7 +103,7 @@ WX - DO NOT WRITE DATA
 *Observação: mais instruções podem ser inseridas futuramente.
 
 ## Uso
-Para usar este projeto, baixe o arquivo **.circ** e abra-o no "Logisim Evolution". Você pode então visualizar o circuito e executá-lo para testar seu funcionamento.
+Para usar este projeto, baixe o arquivo **.circ** e abra-o no Logisim. Você pode então visualizar o circuito e executá-lo para testar seu funcionamento.
 
 ## Contribuição
 Este é um projeto de aprendizado pessoal, mas estou aberto a sugestões de melhoria e correções. Se você tiver alguma ideia ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou um pull request. Agradeço antecipadamente por sua ajuda em tornar este projeto melhor!
